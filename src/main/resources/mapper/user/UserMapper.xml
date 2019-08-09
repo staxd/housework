@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.houseWork.mapper.user.UserDao">
+
+    <select id="selectByMap" parameterType="java.util.Map" resultType="com.houseWork.entity.user.User">
+        select * from user
+        where 1=1
+        <if test="id != null and id !=''">
+            AND id =#{id}
+        </if>
+        <if test="username != null and username !=''">
+            AND username =#{username}
+        </if>
+    </select>
+
+    <select id="findByName" resultType="com.houseWork.entity.user.User" parameterType="java.lang.String">
+        select *
+        from user
+        where username = #{username,jdbcType=VARCHAR}
+    </select>
+
+    <insert id="insert" parameterType="com.houseWork.entity.user.User">
+        INSERT INTO user(open_id,username,password,telephone,role_id,image)
+		VALUES
+			(#{openId},#{username},#{password},#{telephone},2,#{image});
+    </insert>
+
+    <update id="update">
+        UPDATE user
+        <set>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="openId != null">
+                open_id = #{openId},
+            </if>
+            <if test="password != null">
+                password = #{password},
+            </if>
+            <if test="telephone != null">
+                telephone = #{telephone},
+            </if>
+            <if test="roleId != null">
+                role_id = #{roleId},
+            </if>
+            <if test="image != null">
+                image = #{image},
+            </if>
+        </set>
+        <where>
+            <if test="id != null and id != ''">
+                AND id = #{id}
+            </if>
+        </where>
+    </update>
+</mapper>
