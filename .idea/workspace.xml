@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529d1f93-28c3-4c4b-8ac1-00d498197c89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/houseWork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/houseWork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/houseWork/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/houseWork/redis/controller/PangjhController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -84,7 +80,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -137,7 +133,7 @@
     </option>
     <option name="contentProportion" value="0.13523957" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MainServer">
     <configuration name="test$BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houseWork.controller.front.test$BubbleSort" />
       <module name="houseWork" />
@@ -203,6 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="houseWork" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.houseWork.server.MainServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -212,7 +215,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7b4463ee" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7841922e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -282,6 +285,7 @@
       <workItem from="1565267551343" duration="5053000" />
       <workItem from="1565312099426" duration="7921000" />
       <workItem from="1565321085150" duration="72000" />
+      <workItem from="1565322174996" duration="3841000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1563946198723</created>
@@ -364,6 +368,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
