@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.houseWork.mapper.dict.DictDao">
+    <select id="selectByMap" parameterType="java.util.Map" resultType="com.houseWork.entity.dict.Dict">
+        select * from dict
+        where 1=1
+    </select>
+    <insert id="insert" parameterType="com.houseWork.entity.dict.Dict" useGeneratedKeys="true">
+        INSERT INTO dict(type,k,v,orderby)
+		VALUES
+			(#{type},#{k},#{v},#{orderby});
+    </insert>
+</mapper>

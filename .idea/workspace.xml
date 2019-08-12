@@ -34,6 +34,10 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -67,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com" />
-    <property name="last_opened_file_path" value="C:/Documents and Settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper/dict" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,8 +80,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -94,17 +98,17 @@
       <recent name="com.hu.redis" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GeRenCeShi\houseWork\src\main\java\com\houseWork\entity" />
-      <recent name="D:\GeRenCeShi\houseWork\src\main\resources" />
-      <recent name="D:\GeRenCeShi\houseWork\src\main\java\com\houseWork\controller\front" />
-      <recent name="D:\GeRenCeShi\houseWork\src\main\java\com\houseWork\controller\front\user" />
-      <recent name="F:\eclipse\workSpace\housekeeping\houseWork\src\main\java\com\houseWork" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper\dict" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper.user" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\dict" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.houseWork.mapper.dict" />
       <recent name="com.houseWork.entity.dict" />
       <recent name="com.houseWork.service.dict.Impl" />
       <recent name="com.houseWork.service.dict" />
+      <recent name="com.houseWork.mapper.dict" />
       <recent name="com.houseWork.controller.front.dict" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -210,12 +214,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.14169821" />
+        <option name="contentProportion" value="0.14764738" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7841922e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5907a10e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +289,8 @@
       <workItem from="1565267551343" duration="5053000" />
       <workItem from="1565312099426" duration="7921000" />
       <workItem from="1565321085150" duration="72000" />
-      <workItem from="1565322174996" duration="3841000" />
+      <workItem from="1565322174996" duration="7325000" />
+      <workItem from="1565571598089" duration="14563000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1563946198723</created>
@@ -317,15 +322,6 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

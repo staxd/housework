@@ -70,6 +70,7 @@ public class SpringSecurityConf extends WebSecurityConfigurerAdapter {
                 ).permitAll()
 
                 .antMatchers("/user/**").permitAll()
+                .antMatchers("/dict/**").permitAll()
                 .antMatchers("/account/**").permitAll()
                 // swagger start
                 .antMatchers("/swagger-ui.html").anonymous()
