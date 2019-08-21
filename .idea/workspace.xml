@@ -97,12 +97,12 @@
       <recent name="com.hu.security" />
       <recent name="com.hu.redis" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper\dict" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper.user" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\dict" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\eclipse\workSpace\housekeeping\houseWork\src\main\resources\mapper" />
+      <recent name="F:\eclipse\workSpace\housekeeping\houseWork\src\main\java\com\houseWork" />
+      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\user" />
+      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\quartzJob" />
+      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\account" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.houseWork.entity.dict" />
@@ -111,12 +111,12 @@
       <recent name="com.houseWork.mapper.dict" />
       <recent name="com.houseWork.controller.front.dict" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\eclipse\workSpace\housekeeping\houseWork\src\main\resources\mapper" />
-      <recent name="F:\eclipse\workSpace\housekeeping\houseWork\src\main\java\com\houseWork" />
-      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\user" />
-      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\quartzJob" />
-      <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\account" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper\dict" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper.user" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\dict" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +219,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5907a10e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93fee2e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +290,9 @@
       <workItem from="1565312099426" duration="7921000" />
       <workItem from="1565321085150" duration="72000" />
       <workItem from="1565322174996" duration="7325000" />
-      <workItem from="1565571598089" duration="14563000" />
+      <workItem from="1565571598089" duration="15394000" />
+      <workItem from="1566351042495" duration="3046000" />
+      <workItem from="1566354339187" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1563946198723</created>

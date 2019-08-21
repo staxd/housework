@@ -21,4 +21,6 @@ public class DictServiceImpl implements DictService {
     public void insertDict(Dict dict) {
         dictDao.insert(dict);
     }
+    @Override
+    public void updateDict(Map map) { dictDao.update(map);}
 }

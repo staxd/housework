@@ -20,4 +20,6 @@ import java.util.Map;
 public interface DictDao extends Mapper<Dict>, MySqlMapper<Dict> {
     List<Dict> selectByMap(Map map);
     int insert(Dict dict);
+
+    void update(Map map);
 }

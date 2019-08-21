@@ -9,4 +9,6 @@ public interface DictService {
 
     List<Dict> selectByMap(Map map);
     void insertDict(Dict dict);
+
+    void updateDict(Map map);
 }

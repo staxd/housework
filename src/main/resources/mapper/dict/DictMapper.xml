@@ -10,4 +10,26 @@
 		VALUES
 			(#{type},#{k},#{v},#{orderby});
     </insert>
+    <update id="update">
+        UPDATE dict
+        <set>
+            <if test="type != null">
+                type = #{type},
+            </if>
+            <if test="k != null">
+                k = #{k},
+            </if>
+            <if test="v != null">
+                v = #{v},
+            </if>
+            <if test="orderby != null">
+                orderby = #{orderby},
+            </if>
+        </set>
+        <where>
+            <if test="id != null and id != ''">
+                AND id = #{id}
+            </if>
+        </where>
+    </update>
 </mapper>
