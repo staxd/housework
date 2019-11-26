@@ -23,4 +23,7 @@ public class DictServiceImpl implements DictService {
     }
     @Override
     public void updateDict(Map map) { dictDao.update(map);}
+    @Override
+    public void delete(Dict build) { dictDao.deleteById(build); }
+
 }

@@ -11,4 +11,11 @@ public interface DictService {
     void insertDict(Dict dict);
 
     void updateDict(Map map);
+    /**
+     * 删除字典
+     * @params [map]
+     * @return void
+     * @date 2019/7/24 14:34
+     */
+    void delete(Dict build);
 }

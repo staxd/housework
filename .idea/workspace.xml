@@ -71,7 +71,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper/dict" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../housekeeping" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,6 +80,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -105,18 +106,18 @@
       <recent name="F:\idea\ideaArtifacts\GeRenCeShi\SpringBootPro\src\main\resources\mapper\account" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.houseWork.entity.test" />
+      <recent name="com.houseWork.mapper.test" />
+      <recent name="com.houseWork.service.test" />
+      <recent name="com.houseWork.controller.front.test" />
       <recent name="com.houseWork.entity.dict" />
-      <recent name="com.houseWork.service.dict.Impl" />
-      <recent name="com.houseWork.service.dict" />
-      <recent name="com.houseWork.mapper.dict" />
-      <recent name="com.houseWork.controller.front.dict" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\java\com\houseWork\entity" />
+      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\java\com\houseWork\service" />
       <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper\dict" />
       <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper" />
       <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\mapper.user" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources\dict" />
-      <recent name="C:\Users\a\Documents\GitHub\housework\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +220,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93fee2e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@491543a4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -292,7 +293,18 @@
       <workItem from="1565322174996" duration="7325000" />
       <workItem from="1565571598089" duration="15394000" />
       <workItem from="1566351042495" duration="3046000" />
-      <workItem from="1566354339187" duration="892000" />
+      <workItem from="1566354339187" duration="3234000" />
+      <workItem from="1566474190783" duration="57000" />
+      <workItem from="1566545264243" duration="3140000" />
+      <workItem from="1566974245515" duration="2231000" />
+      <workItem from="1567064930368" duration="859000" />
+      <workItem from="1567134244741" duration="853000" />
+      <workItem from="1567144968994" duration="1716000" />
+      <workItem from="1567215864263" duration="73000" />
+      <workItem from="1573461006053" duration="1709000" />
+      <workItem from="1573523040661" duration="26000" />
+      <workItem from="1573619252160" duration="3079000" />
+      <workItem from="1573801178470" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1563946198723</created>

@@ -13,6 +13,18 @@
         </if>
     </select>
 
+    <select id="selectDetail" parameterType="java.util.Map" resultType="com.houseWork.entity.user.UserDetail">
+        select u.*,r.id roleId,r.role_name roleName,r.role_permission rolePermission from user as u
+        left join role as r on u.role = r.id
+        where 1=1
+        <if test="id != null and id !=''">
+            AND u.id =#{id}
+        </if>
+        <if test="username != null and username !=''">
+            AND u.username =#{username}
+        </if>
+    </select>
+
     <select id="findByName" resultType="com.houseWork.entity.user.User" parameterType="java.lang.String">
         select *
         from user
@@ -53,4 +65,9 @@
             </if>
         </where>
     </update>
+
+    <delete id="deleteById" parameterType="com.houseWork.entity.user.User">
+        delete from user
+        where id=#{id}
+    </delete>
 </mapper>

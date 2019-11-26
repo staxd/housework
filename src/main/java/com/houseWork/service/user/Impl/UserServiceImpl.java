@@ -1,6 +1,7 @@
 package com.houseWork.service.user.Impl;
 
 import com.houseWork.entity.user.User;
+import com.houseWork.entity.user.UserDetail;
 import com.houseWork.mapper.user.UserDao;
 import com.houseWork.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +42,13 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void updateUser(Map map) { userDao.update(map);}
+
+    @Override
+    public void delete(User build) { userDao.deleteById(build); }
+
+    @Override
+    public List<UserDetail> selectDetail(Map map) {
+        return userDao.selectDetail(map);
+    }
 
 }

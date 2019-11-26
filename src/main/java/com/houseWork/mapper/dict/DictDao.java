@@ -22,4 +22,5 @@ public interface DictDao extends Mapper<Dict>, MySqlMapper<Dict> {
     int insert(Dict dict);
 
     void update(Map map);
+    int deleteById(Dict dict);
 }

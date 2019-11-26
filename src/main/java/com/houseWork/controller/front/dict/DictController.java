@@ -93,4 +93,15 @@ public class DictController {
         dictService.updateDict(map);
         return new ResponseEntity(ResponseResult.successResponse(),HttpStatus.OK);
     }
+    @PostMapping("/delete")
+    @ApiOperation(value = "删除字典",notes = "删除字典")
+    @ApiImplicitParams(
+            @ApiImplicitParam(paramType = "query", name = "id", value = "id", dataType = "int")
+    )
+    public ResponseEntity delete(@RequestParam Integer id){
+        dictService.delete(Dict.builder()
+                .id(id)
+                .build());
+        return new ResponseEntity(ResponseResult.successResponse(),HttpStatus.OK);
+    }
 }

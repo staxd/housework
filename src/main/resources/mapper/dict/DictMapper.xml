@@ -32,4 +32,8 @@
             </if>
         </where>
     </update>
+    <delete id="deleteById" parameterType="com.houseWork.entity.dict.Dict">
+        delete from dict
+        where id = #{id}
+    </delete>
 </mapper>

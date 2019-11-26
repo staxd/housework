@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.houseWork.entity.response.ResponseResult;
 import com.houseWork.entity.user.User;
+import com.houseWork.entity.user.UserDetail;
 import com.houseWork.entity.user.UserInfo;
 import com.houseWork.security.bean.AuthenticationInfo;
 import com.houseWork.security.bean.AuthorizationUser;
@@ -60,8 +61,8 @@ public class UserController {
         PageHelper.startPage(pageNum,pageSize);
         map.put("id",id);
         map.put("username",username);
-        List<User> list = userService.selectByMap(map);
-        PageInfo<User> pageInfo = new PageInfo<>(list);
+        List<UserDetail> list = userService.selectDetail(map);
+        PageInfo<UserDetail> pageInfo = new PageInfo<>(list);
         return new ResponseEntity(ResponseResult.successResponse(pageInfo),HttpStatus.OK);
     }
 
@@ -146,6 +147,18 @@ public class UserController {
             @ApiImplicitParam(paramType = "query", name = "role", value = "用户角色", dataType = "String")
     )
     public ResponseEntity deciphering(){
+        return new ResponseEntity(ResponseResult.successResponse(),HttpStatus.OK);
+    }
+
+    @PostMapping("/delete")
+    @ApiOperation(value = "删除用户",notes = "删除用户")
+    @ApiImplicitParams(
+            @ApiImplicitParam(paramType = "query", name = "id", value = "id", dataType = "int")
+    )
+    public ResponseEntity delete(@RequestParam Integer id){
+        userService.delete(User.builder()
+                .id(id)
+                .build());
         return new ResponseEntity(ResponseResult.successResponse(),HttpStatus.OK);
     }
 }
